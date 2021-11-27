@@ -4,7 +4,7 @@
   height: 360px;
   margin: 15% auto auto;
   border: 1px solid #0c2f6b;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 150, 0.2), inset -1px -6px 12px 0.1px #89847e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 150, 0.2), inset -1px -6px 12px 0.1px #faf8c0;
   border-radius: 20px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -15,8 +15,8 @@
 .screen {
   height: 60px;
   width: 240px;
-  border: 1px solid #2A2537;
-  background: #c7d3c5;
+  border: 1px solid #9e8ad4;
+  background: #e3f1ff;
   margin: 25px 20px 5px 20px;
   border-radius: 6px;
 }
