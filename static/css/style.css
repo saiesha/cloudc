@@ -1,11 +1,11 @@
 .box {
-  font-family: 'Verdana', sans-serif;
-  width: 427px;
-  height: 540px;
+  font-family: 'Orbitron', sans-serif;
+  width: 285px;
+  height: 360px;
   margin: 15% auto auto;
-  border: 2px solid #1e90ff;
-  box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.2), inset -1px -6px 12px 0.1px #89847e;
-  border-radius: 30px;
+  border: 1px solid #0c2f6b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 150, 0.2), inset -1px -6px 12px 0.1px #89847e;
+  border-radius: 20px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -13,66 +13,66 @@
 }
 
 .screen {
-  height: 90px;
-  width: 360px;
-  border: 2px solid #0b1746;
-  background: #f9ffcf;
-  margin: 37px 30px 8px 30px;
-  border-radius: 9px;
+  height: 60px;
+  width: 240px;
+  border: 1px solid #2A2537;
+  background: #c7d3c5;
+  margin: 25px 20px 5px 20px;
+  border-radius: 6px;
 }
 
 .main-screen {
-  width: 360px;
-  height: 33px;
-  padding: 15px 7px;
-  font-size: 30px;
-  text-align: left;
+  width: 240px;
+  height: 22px;
+  padding: 10px 5px;
+  font-size: 20px;
+  text-align: right;
 }
 
 .sub-screen {
-  max-width: 420px;
-  height: 23px;
-  padding: 15px 8px;
-  font-size: 18px;
-  text-align: left;
+  max-width: 280px;
+  height: 15px;
+  padding: 10px 5px;
+  font-size: 12px;
+  text-align: right;
 }
 
 .buttons {
-  margin: 15px auto;
+  margin: 10px auto;
 }
 
 button {
-  margin: 8px;
-  padding: 5px 15px;
-  width: 75px;
-  height: 45px;
+  margin: 5px;
+  padding: 3px 10px;
+  width: 50px;
+  height: 30px;
   border: none;
-  box-shadow: 2px 4px #666;
+  box-shadow: 1px 2px #666;
 }
 
 button:focus {outline:0 !important;}
 
 button:active {
   box-shadow: none;
-  transform: translateY(6px);
+  transform: translateY(4px);
 }
 
 .btn-zero {
-  width: 169px;
-  margin-right: 12px;
+  width: 113px;
+  margin-right: 7px;
 }
 
 .btn-equal {
   position: absolute;
-  margin-left: 15px;
-  height: 113px;
+  margin-left: 10px;
+  height: 75px;
 }
 
 footer {
-  font-size: 15px;
+  font-size: 10px;
 }
 
-@media (max-width: 637px) {
+@media (max-width: 425px) {
   .github {
       display: none;
   }
