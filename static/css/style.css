@@ -1,0 +1,79 @@
+.box {
+  font-family: 'Verdana', sans-serif;
+  width: 427px;
+  height: 540px;
+  margin: 15% auto auto;
+  border: 2px solid #1e90ff;
+  box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.2), inset -1px -6px 12px 0.1px #89847e;
+  border-radius: 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.screen {
+  height: 90px;
+  width: 360px;
+  border: 2px solid #0b1746;
+  background: #f9ffcf;
+  margin: 37px 30px 8px 30px;
+  border-radius: 9px;
+}
+
+.main-screen {
+  width: 360px;
+  height: 33px;
+  padding: 15px 7px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.sub-screen {
+  max-width: 420px;
+  height: 23px;
+  padding: 15px 8px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.buttons {
+  margin: 15px auto;
+}
+
+button {
+  margin: 8px;
+  padding: 5px 15px;
+  width: 75px;
+  height: 45px;
+  border: none;
+  box-shadow: 2px 4px #666;
+}
+
+button:focus {outline:0 !important;}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(6px);
+}
+
+.btn-zero {
+  width: 169px;
+  margin-right: 12px;
+}
+
+.btn-equal {
+  position: absolute;
+  margin-left: 15px;
+  height: 113px;
+}
+
+footer {
+  font-size: 15px;
+}
+
+@media (max-width: 637px) {
+  .github {
+      display: none;
+  }
+}
